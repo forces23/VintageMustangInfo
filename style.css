@@ -1,0 +1,58 @@
+body{
+	width:100%
+	background-color:#eaeaea;
+	background-image: url("img/ponyBackground.jpg");
+	}
+.page{
+	background-color:#b34d4d;	
+	}
+.front{position:absolute;
+		right:100px;
+		border: solid;
+	}
+.side{position:absolute;
+		top:800px;
+		right:100px;			
+		border: solid;
+	}
+.rear{position:absolute;
+		top:1400px;
+		right:100px;
+		border: solid;
+	}
+a:link{
+	color:white;
+	}
+a:hover{
+	background-color:blue;
+	color:white;
+	text-decoration:underline;
+	}
+a:visited{
+	color:grey;
+	}
+a:active{
+	background-color:white;
+	color:black;
+	}
+#header{
+	text-align: center;
+	color:#ffffff;
+	border:4px white ridge;
+	padding-top:30px;
+	padding-bottom:30px;
+	width:800;
+	margin:50 auto;
+	background-color:#000000;
+	}
+#contents{
+	color:#ffffff;
+	border:4px white ridge;
+	width:800px;
+	
+	margin:50 auto;
+	background-color:#000000;
+	}
+#footer{
+	background-color:#000000;
+	}
